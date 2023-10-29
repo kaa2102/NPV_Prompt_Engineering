@@ -1,0 +1,25 @@
+Prompt 2:
+Calculate the Net Present Value (NPV) of the following cash flows, beginning of period, at 10% interest or hurdle rate annually: (-1000,1200,1200,1200,1200,1200)
+
+Response 2:
+To calculate the Net Present Value (NPV) of the given cash flows at a 10% annual interest rate, we need to discount each cash flow to its present value and then sum them up. As the cash flows are at the beginning of each period, we'll use the formula for calculating the present value of an ordinary annuity:
+
+PV = CF * [(1 - (1 + r)^(-n)) / r]
+
+Where:
+PV = Present value of the cash flow stream
+CF = Cash flow per period
+r = Interest rate (hurdle rate)
+n = Number of periods
+
+In this case, CF = 1200 (cash flow in each period) and r = 0.10 (10% interest rate). There are a total of 6 periods.
+
+Calculating the NPV:
+
+PV = 1200 * [(1 - (1 + 0.10)^(-6)) / 0.10]
+   = 1200 * [(1 - 0.564474) / 0.10]
+   = 1200 * [0.435526 / 0.10]
+   = 1200 * 4.35526
+   = 5226.31
+
+Therefore, the Net Present Value (NPV) of the given cash flows at a 10% annual interest rate is approximately $5226.31.
