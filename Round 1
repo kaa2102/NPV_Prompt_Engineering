@@ -1,0 +1,38 @@
+Prompt 1:
+Calculate the Net Present Value (NPV) of the following cash flows at 10% interest or hurdle rate annually: -1000,1200,1200,1200,1200,1200
+
+Answer 1:
+To calculate the Net Present Value (NPV) of the cash flows, we need to discount each cash flow to its present value and then sum them up. The formula for calculating the present value of a cash flow is:
+
+PV = CF / (1 + r)^n
+
+Where:
+PV = Present value
+CF = Cash flow
+r = Interest rate (hurdle rate)
+n = Time period (number of years)
+
+Let's calculate the NPV using a hurdle rate of 10% annually for the cash flows -1000, 1200, 1200, 1200, 1200, and 1200.
+
+Year 0: -1000 / (1 + 0.10)^0 = -1000 (Initial investment)
+
+Year 1: 1200 / (1 + 0.10)^1 = 1090.91
+
+Year 2: 1200 / (1 + 0.10)^2 = 990.91
+
+Year 3: 1200 / (1 + 0.10)^3 = 900.92
+
+Year 4: 1200 / (1 + 0.10)^4 = 820.83
+
+Year 5: 1200 / (1 + 0.10)^5 = 748.03
+
+Now, we sum up all the present values:
+
+NPV = -1000 + 1090.91 + 990.91 + 900.92 + 820.83 + 748.03
+     = 3651.70
+
+Therefore, the Net Present Value (NPV) of the given cash flows at a 10% annual interest rate is $3651.70.
+NPV = -1000 + 1090.91 + 990.91 + 900.92 + 820.83 + 748.03
+= 3651.70
+
+Therefore, the Net Present Value (NPV) of the given cash flows at a 10% annual interest rate is $3651.70.
