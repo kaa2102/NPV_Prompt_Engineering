@@ -1,0 +1,83 @@
+via Bard AI
+
+Prompt 4:
+What is the net present value of the following annual cash flows at 10% interest: -1000, 1200, 1200,1200,1200,1200?
+
+Response 4:
+The net present value (NPV) of the following annual cash flows at 10% interest is $3548.94.
+
+---
+import math
+
+def npv(cash_flows, discount_rate):
+  """
+  Calculates the net present value of a series of cash flows.
+
+  Args:
+    cash_flows: A list of cash flows.
+    discount_rate: The discount rate.
+
+  Returns:
+    The net present value.
+  """
+
+  n = len(cash_flows)
+  present_values = []
+  for i in range(n):
+    present_values.append(cash_flows[i] / (1 + discount_rate)**i)
+
+  npv = sum(present_values)
+  return npv
+---
+
+The net present value (NPV) of the following annual cash flows at 10% interest is $3548.94.
+
+Python
+import math
+
+def npv(cash_flows, discount_rate):
+  """
+  Calculates the net present value of a series of cash flows.
+
+  Args:
+    cash_flows: A list of cash flows.
+    discount_rate: The discount rate.
+
+  Returns:
+    The net present value.
+  """
+
+  n = len(cash_flows)
+  present_values = []
+  for i in range(n):
+    present_values.append(cash_flows[i] / (1 + discount_rate)**i)
+
+  npv = sum(present_values)
+  return npv
+
+if __name__ == "__main__":
+  cash_flows = [-1000, 1200, 1200, 1200, 1200, 1200]
+  discount_rate = 0.1
+  npv = npv(cash_flows, discount_rate)
+  print(npv)
+#Use code with caution. Learn more
+---
+
+The code above calculates the NPV by first calculating the present value of each cash flow using the formula:
+
+present_value = cash_flow / (1 + discount_rate)**n
+where:
+
+cash_flow is the cash flow in a given year
+n is the number of years in the future the cash flow is received
+discount_rate is the interest rate
+The present values of all the cash flows are then summed to get the NPV.
+
+In this case, the NPV is $3548.94. This means that the present value of the future cash flows is greater than the initial investment of $1000, so the project is worth undertaking.
+
+---
+if __name__ == "__main__":
+  cash_flows = [-1000, 1200, 1200, 1200, 1200, 1200]
+  discount_rate = 0.1
+  npv = npv(cash_flows, discount_rate)
+  print(npv)
