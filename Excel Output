@@ -1,0 +1,24 @@
+Beginning of Period
+
+Year	Cash Flow	Present Value	Interest Rate		NPV		
+0	-1000	-1000	10%		$3,226.31 	Assumes End of Period	
+1	1200	1090.909091					
+2	1200	991.7355372			Beginning of Period		
+3	1200	901.5777611			Future Value	NPV (FV discounted)	Number of Periods
+4	1200	819.6161464			$5,715.61 	$3,548.94 	5
+5	1200	745.1055877					
+
+Net Present Value	 $3,548.94 					
+Sum of Discounted Cash Flows					
+
+End or Period
+
+Year	Cash Flow	Present Value	Interest Rate		NPV		
+1	-1000	-909.0909091	0.1		$3,226.31 	Assumes End of Period	
+2	1200	991.7355372					
+3	1200	901.5777611			End of Period		
+4	1200	819.6161464			Future Value	NPV (FV discounted)	Number of Periods
+5	1200	745.1055877			$5,715.61 	$3,226.31 	6
+6	1200	677.3687161					
+Net Present Value	 $3,226.31 					
+Sum of Discounted Cash Flows					
